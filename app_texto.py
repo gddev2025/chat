@@ -66,7 +66,7 @@ with col2:
 
 with col4:
     if st.button("Iniciar Videochamada"):
-        meet_link = f"https://meet.jit.si/atendimento_{username}_{int(time.time())}"
+        meet_link = f"https://meet.jit.si/atendimento_{username}_{int(time.time())}1"
         st.markdown(f"[Clique aqui para iniciar a videochamada]({meet_link})")
 
 with col5:
